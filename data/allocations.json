@@ -1,0 +1,2105 @@
+{
+  "total_amount": 23759650.72118298,
+  "total_rewards": 5430529.217665032,
+  "new_delegations": 19999999,
+  "delegations": [
+    {
+      "address": "bitsongvaloper19ah9302mh80pvv5zeztdr6qcqk6z52frn6rjj5",
+      "name": "KalpaTech",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 2080269.611015,
+      "total_rewards": 18109.541293785864,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 2080269.611015,
+          "rewards": 18109.541293785864
+        }
+      ],
+      "new_delegations": 2080269.611015
+    },
+    {
+      "address": "bitsongvaloper1wf3q0a3uzechxvf27reuqts8nqm45sn2yq26g3",
+      "name": "Cosmostation",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 2079867.898637,
+      "total_rewards": 84336.39434077207,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 1979867.898637,
+          "rewards": 17235.507514947807
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 100000,
+          "rewards": 67100.88682582426
+        }
+      ],
+      "new_delegations": 2079867.898637
+    },
+    {
+      "address": "bitsongvaloper10fg3yklae97g8ueh5ut29mlwz8fdr6z8zrak6x",
+      "name": "Validatrium.com",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 1959509.0273419998,
+      "total_rewards": 408287.3909772929,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 1075109.416327,
+          "rewards": 9359.237671758963
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 507466,
+          "rewards": 264376.7265431158
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 39999.99125,
+          "rewards": 8647.909919888578
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 336933.619765,
+          "rewards": 125903.51684252953
+        }
+      ],
+      "new_delegations": 1959509.0273419998
+    },
+    {
+      "address": "bitsongvaloper14rvn7anf22e00vj5x3al4w50ns78s7n42rc0ge",
+      "name": "🐹 Quokka Stake",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 1077206.396711,
+      "total_rewards": 386807.1334850315,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.14631,
+          "rewards": 195.10247826147364
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 556899.630636,
+          "rewards": 127067.46256796895
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 200000,
+          "rewards": 141618.6997240338
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 299074.619765,
+          "rewards": 117925.86871476726
+        }
+      ],
+      "new_delegations": 953641
+    },
+    {
+      "address": "bitsongvaloper1fkj2cn209yeexxyets98evrcmmds23hck0lyzq",
+      "name": "ITA Stakers",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 867152.8807529999,
+      "total_rewards": 59975.77705764987,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 792000.000689,
+          "rewards": 7277.699947520162
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 64350.000055,
+          "rewards": 45025.69899211258
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 10802.880009,
+          "rewards": 7672.378118017139
+        }
+      ],
+      "new_delegations": 867152.8807529999
+    },
+    {
+      "address": "bitsongvaloper18wf0w252jxk3kgl5vlst8ttat8xzfnvejuftk2",
+      "name": "StakeLab.zone",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 853507.502646,
+      "total_rewards": 7842.892115260823,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 853507.502646,
+          "rewards": 7842.892115260823
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1zugs5wtmt98949msgwchawr5cal7h32s8na0r9",
+      "name": "CommunityStaking",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 723086.0727929999,
+      "total_rewards": 200510.9883489351,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.611015,
+          "rewards": 197.07319790480682
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 459722.842013,
+          "rewards": 104901.41333830266
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 241916.619765,
+          "rewards": 95412.50181272764
+        }
+      ],
+      "new_delegations": 797787
+    },
+    {
+      "address": "bitsongvaloper1wetqg989uyj3mpk07h8yt3qvu2cdlsv7fp3zda",
+      "name": "✅ CryptoCrew Validators #IBCgang",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 718925.5783769999,
+      "total_rewards": 57900.07519890111,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 646069.578246,
+          "rewards": 5932.622069669511
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 39600.000131,
+          "rewards": 28047.573606253547
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 33256,
+          "rewards": 23919.87952297805
+        }
+      ],
+      "new_delegations": 718925.5783769999
+    },
+    {
+      "address": "bitsongvaloper1wq3hjdygz9n84z826p56zft0e45kmlfrnsy4p4",
+      "name": "Interbloc",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 716907.764542,
+      "total_rewards": 353634.89402066264,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 460293.573162,
+          "rewards": 252474.4396869944
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 256614.19138,
+          "rewards": 101160.45433366825
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper16wgum78qxca2vrk3s45lu0cc52pj82hjs3h04z",
+      "name": "stake.systems",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 656151,
+      "total_rewards": 56522.98794378209,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 580000,
+          "rewards": 5049.119440610324
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 40000,
+          "rewards": 26840.08006431181
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 36151,
+          "rewards": 24633.788438859963
+        }
+      ],
+      "new_delegations": 427776
+    },
+    {
+      "address": "bitsongvaloper1wtf99e8l5k2yxxc0rj6xwxj7mfam9hfnjqznja",
+      "name": "Rundax",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 625842.859788,
+      "total_rewards": 47921.75217554396,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 562773.424306,
+          "rewards": 4899.155139497374
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 63069.435482,
+          "rewards": 43022.59703604659
+        }
+      ],
+      "new_delegations": 423136
+    },
+    {
+      "address": "bitsongvaloper138zp40g5pnjg4e7a24j5035q2f7nzwfec8ruee",
+      "name": "AlxVoy ⚡ ANODE.TEAM",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 578498.619765,
+      "total_rewards": 270621.4334066416,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 372214,
+          "rewards": 193542.93762244907
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 206284.619765,
+          "rewards": 77078.49578419249
+        }
+      ],
+      "new_delegations": 937290
+    },
+    {
+      "address": "bitsongvaloper1jxv0u20scum4trha72c7ltfgfqef6nscl86wxa",
+      "name": "Ping",
+      "status": "BOND_STATUS_UNBONDING",
+      "total_amount": 532620.0033689999,
+      "total_rewards": 25921.90083639587,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 495000.003131,
+          "rewards": 184.1132433673081
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 37620.000238,
+          "rewards": 25737.787593028563
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1fgmzy5rtvvnxzy0vn54mz9k5xndzt2afepyye3",
+      "name": "Safe Block",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 511896.619765,
+      "total_rewards": 229146.3073711922,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 60000,
+          "rewards": 551.3406460107585
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 326228,
+          "rewards": 179032.13227153695
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 125668.619765,
+          "rewards": 49562.8344536445
+        }
+      ],
+      "new_delegations": 408936
+    },
+    {
+      "address": "bitsongvaloper1nw4wmjq7le0h993tn27kmnqk2y8mdvhutzklgk",
+      "name": "moonsoon",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 481871.453646,
+      "total_rewards": 205853.96998511677,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 57075.899141,
+          "rewards": 496.86706639022293
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 231822.075512,
+          "rewards": 121365.96888550818
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 38811.960724,
+          "rewards": 26299.04121151147
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 154161.518269,
+          "rewards": 57692.092821706894
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1d9mue6sxrxgcd8rz6cdmeamw4cey3c243ll3gj",
+      "name": "Thamar",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 455498.619765,
+      "total_rewards": 89163.85840065504,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 275000,
+          "rewards": 2393.978764770714
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 65000,
+          "rewards": 43611.120487180284
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 115498.619765,
+          "rewards": 43158.75914870403
+        }
+      ],
+      "new_delegations": 444962
+    },
+    {
+      "address": "bitsongvaloper19qtzdsu57hf5jmcyy5t2uuh0y45q4ah7hrwk4n",
+      "name": "[NODERS]",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 454253.61976800003,
+      "total_rewards": 246016.56859511405,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 432807.000003,
+          "rewards": 237557.76753556408
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21446.619765,
+          "rewards": 8458.80105954998
+        }
+      ],
+      "new_delegations": 993089
+    },
+    {
+      "address": "bitsongvaloper1wqcqfm499f84cjnppqu03jrkqtwqsndpw9qxc5",
+      "name": "TdrSys | Auto-Compound",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 409796.619765,
+      "total_rewards": 191641.34752066687,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 234689,
+          "rewards": 124754.749586574
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 175107.619765,
+          "rewards": 66886.59793409286
+        }
+      ],
+      "new_delegations": 499531
+    },
+    {
+      "address": "bitsongvaloper1n05tgtv6pyr8ymp6g7f3wceutktv2xfzmkkqmf",
+      "name": "Enigma",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 393424.982666,
+      "total_rewards": 98157.79056977473,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 250000,
+          "rewards": 2297.2527243334225
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 37871,
+          "rewards": 20786.359114166615
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 76825.982666,
+          "rewards": 54411.889190587615
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 28728,
+          "rewards": 20662.28954068708
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1ech3swu5jeuenxzgd0rq9xz6yz3yn6t0v2x0tw",
+      "name": "Redelegate",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 383838.956169,
+      "total_rewards": 120450.23791263335,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 174682.145999,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 66949.740419,
+          "rewards": 31145.88937720473
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 119131.159607,
+          "rewards": 74598.4401835656
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 23075.910144,
+          "rewards": 14705.908351863025
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1dlrrtjg4gf6y3l03fkj7jsefu5dhldsmt39tzg",
+      "name": "Seasting",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 381154.579998,
+      "total_rewards": 188466.8987845758,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153925,
+          "rewards": 184.83369984552402
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 359922.426073,
+          "rewards": 188282.06508473027
+        }
+      ],
+      "new_delegations": 402038
+    },
+    {
+      "address": "bitsongvaloper1aakd7kru6n9l2ty565j3t893ygadc9xz0c65mk",
+      "name": "nodtech",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 327490.026067,
+      "total_rewards": 128187.91795266139,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 20809.634428,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 177110.858701,
+          "rewards": 63834.91779567403
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 18454.897053,
+          "rewards": 8992.687145958556
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 111114.635885,
+          "rewards": 55360.313011028804
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper100akrazwzrxhklgnh2ueaqfcv7kcanh9ew3jxf",
+      "name": "Coding Everyday｜打碼大聯盟",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 309410.171817,
+      "total_rewards": 147838.59320703085,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21019.832408,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 167456.148537,
+          "rewards": 74163.23417907077
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 120934.190872,
+          "rewards": 73675.35902796006
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1c5p4sqgz5jslpywsk5c0nasqqjfucv9lvjlnry",
+      "name": "🔥STAVR🔥 REStake ON✅",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 307098.619764,
+      "total_rewards": 148724.2231162126,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619764,
+          "rewards": 186.70066701122252
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 285652,
+          "rewards": 148537.52244920138
+        }
+      ],
+      "new_delegations": 815229
+    },
+    {
+      "address": "bitsongvaloper17dpklyxlrn9kypkd3khy9t98v8qddnghllnt7x",
+      "name": "cryptobtcbuyer",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 297064.964327,
+      "total_rewards": 144255.07334147248,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153621,
+          "rewards": 184.8338234685945
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 275832.810706,
+          "rewards": 144070.2395180039
+        }
+      ],
+      "new_delegations": 505330
+    },
+    {
+      "address": "bitsongvaloper1xzaknf4rzk5edx6gewgqxk29m0tt73h36uyg68",
+      "name": "Starsquid",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 278319.318448,
+      "total_rewards": 119666.47626692922,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153938,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 257087.16451,
+          "rewards": 119666.47626692922
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1qyc9ccfx7clj0kswgjz6cdf5f4n6v4nyeudy8q",
+      "name": "CosmosDrops",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 274211.619765,
+      "total_rewards": 126270.83314009063,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 117291,
+          "rewards": 64378.98452955669
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 156920.619765,
+          "rewards": 61891.84861053394
+        }
+      ],
+      "new_delegations": 392630
+    },
+    {
+      "address": "bitsongvaloper1um889kzz9gyxlwtrgs6mc9sdwwx8z2kekudytd",
+      "name": "Crazy Staking",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 264614.076151,
+      "total_rewards": 175009.06780593746,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 20601.538862,
+          "rewards": 183.329617517466
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 244012.537289,
+          "rewards": 174825.73818842
+        }
+      ],
+      "new_delegations": 770742
+    },
+    {
+      "address": "bitsongvaloper10gwt8pf92qnf4ym42xs593gxfmwze57vtw0yw8",
+      "name": "Inotel",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 246813.555948,
+      "total_rewards": 97768.00967375278,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 74250.000716,
+          "rewards": 646.3745772030038
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 86981.400839,
+          "rewards": 45589.11613640098
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 64350.000621,
+          "rewards": 43542.54201282965
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21232.153772,
+          "rewards": 7989.976947319149
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1qxw4fjged2xve8ez7nu779tm8ejw92rv0vcuqr",
+      "name": "Tedcrypto.io 🧸 | TedLotto",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 222243.701208,
+      "total_rewards": 2360.6689342822233,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 63069.427525,
+          "rewards": 669.9224205371823
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 159174.273683,
+          "rewards": 1690.746513745041
+        }
+      ],
+      "new_delegations": 355782
+    },
+    {
+      "address": "bitsongvaloper1yvwl7h6eek0j35ekeyz38a0wyfd4anrrgvnlez",
+      "name": "Architect Nodes",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 205389.619765,
+      "total_rewards": 101153.0674161644,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 197.07314507381528
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 183943,
+          "rewards": 100955.99427109059
+        }
+      ],
+      "new_delegations": 717843
+    },
+    {
+      "address": "bitsongvaloper1zuc0kljzv5mutgk0ddufp4vgvpy04dhz07dlxp",
+      "name": "Bit Cat🐱",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 205166.446392,
+      "total_rewards": 1898.6271061375594,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 121287.376585,
+          "rewards": 1055.851082685699
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 63069.435824,
+          "rewards": 633.690960656279
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 20809.633983,
+          "rewards": 209.08506279558136
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1x2slrjfmgxq7qx3xwmsjue73t5ynmwy7jgpdtr",
+      "name": "ChainTools",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 194607.619767,
+      "total_rewards": 45938.91075631985,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 80000.000001,
+          "rewards": 735.1203325195866
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 114607.619766,
+          "rewards": 45203.79042380026
+        }
+      ],
+      "new_delegations": 791429
+    },
+    {
+      "address": "bitsongvaloper1dqzmtlrh5krqlrz694cxnkqf4y3wyqv3tmhn07",
+      "name": "HWL Staking",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 188959.32936600002,
+      "total_rewards": 70392.74367553277,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 188959.320616,
+          "rewards": 70392.74367553277
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper12d0dae3qm4et9r5l2npwrmwknax07yd0rrlhxx",
+      "name": "SmartNodes",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 176491.718229,
+      "total_rewards": 52633.19615532954,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 78408.000936,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 76851.563539,
+          "rewards": 46545.21358750657
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21232.153754,
+          "rewards": 6087.982567822972
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1a5vh93eahq526fnv7ymyf0xsgpulvlwneusqm0",
+      "name": "polkachu.com",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 171403.46376,
+      "total_rewards": 1573.9361054914064,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 171403.46376,
+          "rewards": 1573.9361054914064
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1gktsym0w2xvutpqe8a9tvs6c4qrts8wnt8nnfp",
+      "name": "dreamstaker",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 167566.619765,
+      "total_rewards": 60192.73207050894,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 80269.619765,
+          "rewards": 698.7769109426832
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 87297,
+          "rewards": 59493.955159566256
+        }
+      ],
+      "new_delegations": 543105
+    },
+    {
+      "address": "bitsongvaloper1t26ag4sn8075dk27d8zp6dh30prnqzymcnee5a",
+      "name": "Hathor Node",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 165301.044268,
+      "total_rewards": 58015.4189470004,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 84410.370557,
+          "rewards": 36069.38926399089
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 80890.664961,
+          "rewards": 21946.02968300951
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1rgtyd3uj3m0rr684hy3590y3vjcm9enhamsm6r",
+      "name": "StakeCraft",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 161446.619764,
+      "total_rewards": 52281.406048860095,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 75000,
+          "rewards": 652.9032621262953
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 65000,
+          "rewards": 43614.72039241705
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21446.619764,
+          "rewards": 8013.782394316743
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1dmmupr5qqy07sksct3au8tx9vuh224vg53fl6x",
+      "name": "dimi",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 152349,
+      "total_rewards": 19514.484851334902,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 125000,
+          "rewards": 1088.1722903246368
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20000,
+          "rewards": 13419.000098589948
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 7349,
+          "rewards": 5007.312462420317
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1slnkc2a8lhxgz5cc7lg9zlgzfedfpdve0rh2p6",
+      "name": "DOUBLETOP",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 148213.198496,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 20191.570139,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 128021.628357,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1pn6mhrwq8vdhns366jwxkggmhmxypuhrrc4huu",
+      "name": "Stakewolle.com | 100% insurance",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 139056.775978,
+      "total_rewards": 75107.86149056378,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153696,
+          "rewards": 195.10263659679433
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21019.826988,
+          "rewards": 4808.2874714996115
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 96804.795294,
+          "rewards": 70104.47138246738
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper17rrtxpsvf84pakruwg5nm4f0c4z2k0crvveyk9",
+      "name": "Wanderer Staking",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 136446.619765,
+      "total_rewards": 27679.104907504963,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 96446.619765,
+          "rewards": 839.6024277059907
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 40000,
+          "rewards": 26839.50247979897
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1ul49tmtdq3rlurss39kjf3m8a0dtehwyte6jfp",
+      "name": "Alex (Bambarello) Validator",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 136446.619764,
+      "total_rewards": 27679.471467991698,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 96446.619764,
+          "rewards": 839.6046795455493
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 40000,
+          "rewards": 26839.86678844615
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1up87cpxu86wv30k4d2g8tzhhqcka3n5mhmuf4f",
+      "name": "OranG3cluB",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 135869.619765,
+      "total_rewards": 77948.24214319454,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 186.7006706159706
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20000,
+          "rewards": 13420.084664173077
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 94423,
+          "rewards": 64341.45680840549
+        }
+      ],
+      "new_delegations": 551555
+    },
+    {
+      "address": "bitsongvaloper12xtuwyt599dv57y7v007qpp230ph3utkssnx7n",
+      "name": "Noderunners",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 130525.619765,
+      "total_rewards": 76732.85361482213,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 192.92420493040498
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20000,
+          "rewards": 13858.14489368091
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 89079,
+          "rewards": 62681.78451621082
+        }
+      ],
+      "new_delegations": 488591
+    },
+    {
+      "address": "bitsongvaloper1e4x227p8nqms0cp5j4mmfkqfxmnq8d8tz6dlpj",
+      "name": "Code-Breader",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 120269.619765,
+      "total_rewards": 27539.4549861681,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 80269.619765,
+          "rewards": 698.7745396684135
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 40000,
+          "rewards": 26840.680446499686
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper12gt92p97xhwd8xsp0f54nadzc7r2utakvverr8",
+      "name": "papsan",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 116907.697361,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 78095.734693,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 38811.962668,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper18xfqngs09n7a86lesrh4q5atjx37a3qc56hqhw",
+      "name": "\tEZStaking.io",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 110302.637265,
+      "total_rewards": 15682.685058377858,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 110302.619765,
+          "rewards": 15682.685058377858
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1rg53d06r0k0h7w7mvacmapzsjahkp5rd35a5ff",
+      "name": "Bitveil",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 105533.724996,
+      "total_rewards": 17512.064832166667,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 105533.724996,
+          "rewards": 17512.064832166667
+        }
+      ],
+      "new_delegations": 802745
+    },
+    {
+      "address": "bitsongvaloper1sqw7f6vcs9wg9h9j0t05e592sg6y8eldcdq3vd",
+      "name": "Stake.Works | Bitsong",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 104761.619765,
+      "total_rewards": 44719.50484237769,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 191.88618789661427
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 83315,
+          "rewards": 44527.61865448108
+        }
+      ],
+      "new_delegations": 502951
+    },
+    {
+      "address": "bitsongvaloper1fl489yump3c47ly74g3fg3kj0wkumke6z0t2za",
+      "name": "Julia",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 100269.619765,
+      "total_rewards": 14118.408915717311,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 80269.619765,
+          "rewards": 698.7768162912726
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20000,
+          "rewards": 13419.632099426039
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1rtxprc6emy5jnqm88ssf0agernku83s2rg5tm7",
+      "name": "PerfectStake 🥩",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 95696.622917,
+      "total_rewards": 833.0724965849874,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 95696.622917,
+          "rewards": 833.0724965849874
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1kmngdftrv8rq79eswfw0k3z26ah77h5luacg0e",
+      "name": "Earn Network",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 93582.766785,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 93582.766785,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper129y6g55wz7mz9vs2nudfvfdaun80fuphnltfpf",
+      "name": "Archived validator - Please redelegate away",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 69454,
+      "total_rewards": 36150.96043370062,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 65000,
+          "rewards": 33789.232491901625
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 4454,
+          "rewards": 2361.727941798989
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1mceksy7l3xenuyx4dzl64erf3fh29a3r2ercnz",
+      "name": "BlueStake 🚀 | 100% insurance",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 58823,
+      "total_rewards": 540.525303953525,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 58823,
+          "rewards": 540.525303953525
+        }
+      ],
+      "new_delegations": 451492
+    },
+    {
+      "address": "bitsongvaloper1pqlxe507avzg2hq8ylcju037ywyh3myfsv9wln",
+      "name": "Oldcat",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 31446.619765,
+      "total_rewards": 288.96293640306584,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 31446.619765,
+          "rewards": 288.96293640306584
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper18nqd69k3kgns9tyvq8e8supsvx9wgwwu60c9np",
+      "name": "Masternode24.de",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21446.628514,
+      "total_rewards": 130.09715237631914,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21446.619764,
+          "rewards": 130.09715237631914
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1h8galdzmm8cn9e7hrs3s0ae2j2hzxhnn98cdwg",
+      "name": "PLS REDELEGATE - SHUTDOWN",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21446.619768,
+      "total_rewards": 6867.143533815841,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21446.619768,
+          "rewards": 6867.143533815841
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper10uv3t6yru5dryz2yy9em2pzmqezyhsp0gkkxd2",
+      "name": "KJINC.io",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619767,
+      "total_rewards": 8042.802407988666,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21446.619767,
+          "rewards": 8042.802407988666
+        }
+      ],
+      "new_delegations": 735859
+    },
+    {
+      "address": "bitsongvaloper16cm4ew7zrzaa7rf250jhwq2lcz3a60xmw0h5v8",
+      "name": "PLEASE REDELEGATE BY JUNE 10, 2024",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21446.619766,
+      "total_rewards": 5727.834724174935,
+      "delegators": [
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21446.619766,
+          "rewards": 5727.834724174935
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1qf8ywssvfum5zj3jrp354875ay2flpsj7mmvt8",
+      "name": "AGFinance",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 197.07264796086542,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 197.07264796086542
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1gqmqvy2pnuca3gjldsna49t8vmf88lf9azp4gy",
+      "name": "MathNodes",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 194.41641918015097,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 194.41641918015097
+        }
+      ],
+      "new_delegations": 713821
+    },
+    {
+      "address": "bitsongvaloper1wcvhw2ts80ywk3avd9ad8qmrwaeqwmkpg2shxz",
+      "name": "PowerStaking",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 8193.818517452772,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21446.619765,
+          "rewards": 8193.818517452772
+        }
+      ],
+      "new_delegations": 627226
+    },
+    {
+      "address": "bitsongvaloper154327a0ud04jtdecac8uhecmnz3kqdueqtevmc",
+      "name": "GOAT V 🐐🚀",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 197.06954986169168,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 197.06954986169168
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1cqg5qc5zce7rkga8cwdyk6g55jnsweyrt3lw7v",
+      "name": "Foxinodes",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 197.07246439600212,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 197.07246439600212
+        }
+      ],
+      "new_delegations": 383786
+    },
+    {
+      "address": "bitsongvaloper1e6ueftq485nqqptlj7kjpva8yhjlvu09csxmyp",
+      "name": "CryptmasGhost",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 3474.1044581827305,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 12939.265871,
+          "rewards": 118.89906323365888
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 8507.353894,
+          "rewards": 3355.2053949490714
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper16976fek2lpt6nnuj3r00ldw7lvhavvqt0mkxjy",
+      "name": "Panthea EU",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 186.7005610316388,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 186.7005610316388
+        }
+      ],
+      "new_delegations": 661522
+    },
+    {
+      "address": "bitsongvaloper1mvpx2jnq7vnur3dehwesddg6as5eua0jy2a99s",
+      "name": "Consensus One",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619765,
+      "total_rewards": 197.07216579001815,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619765,
+          "rewards": 197.07216579001815
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1pkepjd307346zadmlxpvs9wqrghkx735v0ehge",
+      "name": "bonded.zone ⚡",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619764,
+      "total_rewards": 8013.797565091745,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21446.619764,
+          "rewards": 8013.797565091745
+        }
+      ],
+      "new_delegations": 537672
+    },
+    {
+      "address": "bitsongvaloper1vtc6xlwpeuf9r5ee5hxq40hcllxcad9pnl99xn",
+      "name": "UD財科暗戰",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21446.619764,
+      "total_rewards": 197.07157932079966,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21446.619764,
+          "rewards": 197.07157932079966
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1sr97dlwwc3420dyxg50cldm4yqxtl7x2y4tzy2",
+      "name": "jetlife",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21232.162546,
+      "total_rewards": 4439.345718964511,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 21232.153796,
+          "rewards": 4439.345718964511
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1wusnupm08xwe05zgvk6frqjuxak6q5ang5jppk",
+      "name": "👋 79anvi 🍀",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21232.157831,
+      "total_rewards": 235.81071439037302,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21232.157831,
+          "rewards": 235.81071439037302
+        }
+      ],
+      "new_delegations": 509455
+    },
+    {
+      "address": "bitsongvaloper139dppl6gyerq8yaweksajut3urwyygsz7r4ej4",
+      "name": "web34ever",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21232.155075,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.155075,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper10y23e2v9hm82uhw4m5zhm3mxrrqc865dmanyl5",
+      "name": "MMS",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21232.154822,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.154822,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1lw4aqn2ce65tp80swj5gfz4hhw9hug8hd7ukrs",
+      "name": "Trivium | Trivium.Network",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21232.153925,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153925,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper14yxgr6tpsta2lnuxtrqd4ajqnqdgcffnvzer4n",
+      "name": "🐔 The Chicken Coop 🦝 Homestead",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21232.153853,
+      "total_rewards": 8390.657458417978,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21232.153853,
+          "rewards": 8390.657458417978
+        }
+      ],
+      "new_delegations": 502718
+    },
+    {
+      "address": "bitsongvaloper1xwazl8ftks4gn00y5x3c47auquc62ssugxgm5z",
+      "name": "jabbey",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21232.153794,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 21232.153794,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1ynj2u9x0pgq6gx38pllwrg7948l9yp9lr05zc4",
+      "name": "Elon_Nodes ♪ The_Beat_Verifier",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 21232.145271,
+      "total_rewards": 209.61212591812907,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21232.145271,
+          "rewards": 209.61212591812907
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1jz8kddkl59jlnx7tkgu4pkzk8r4ztrfmg0lujf",
+      "name": "A-gaming",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 21019.836309,
+      "total_rewards": 5760.785355592179,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 21019.836309,
+          "rewards": 5760.785355592179
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1j98m4tzhzktqgwmmd3q8k9trgch5ssxnpm7r3k",
+      "name": "cardex",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 20601.548343,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20601.548343,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1fk4up90cx352jwr6clug8pkg5jt28ha9whf6pu",
+      "name": "poorbuthappy",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 20601.54124,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 20601.54124,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1slkjvzezgq8qxkg4p8yhaslvswr6gu97rjc6e5",
+      "name": "stakr",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 20395.527797,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20395.527797,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1w40wm0hzakvekxfq93mncjcd7ss30futm5jqjg",
+      "name": "CryptoNet",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 20374.304852,
+      "total_rewards": 7671.255550205643,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 20374.304852,
+          "rewards": 7671.255550205643
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper14uu8czc9jgntxw7xqryx8edmrgszc4xnjy4anh",
+      "name": "redelegate",
+      "status": "BOND_STATUS_UNBONDING",
+      "total_amount": 20374.295813,
+      "total_rewards": 0.23443203215684796,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 20374.295813,
+          "rewards": 0.23443203215684796
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1xnc32z84cc9vwftvv4w0v02a2slug3tjt6qyct",
+      "name": "RAMZES",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 19789.775039,
+      "total_rewards": 219.91696279816082,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 19789.775039,
+          "rewards": 219.91696279816082
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1dn89hnfs8f85j3plzqc9my5ntfqrrus3lx0y2m",
+      "name": "Yucher",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 18829.618163,
+      "total_rewards": 9166.911279895834,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 18829.609413,
+          "rewards": 9166.911279895834
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper189y5r7c3a9a2kpthd5ah6l7za2jz7p8yw3rz9f",
+      "name": "E2ard",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 18641.325469,
+      "total_rewards": 9119.912478771384,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 18641.316719,
+          "rewards": 9119.912478771384
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper19mmq66klqpcqjztdaclaf5tvknn4mjkd9k9fup",
+      "name": "!Crypteloid",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 18078.284729,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 18078.284729,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1qe8uuf5x69c526h4nzxwv4ltftr73v7qdc2c27",
+      "name": "Stakecito - Please redelegate!",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.0175,
+      "total_rewards": 0.00011613253584202054,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 0.00875,
+          "rewards": 0.00011613253584202054
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1nz9e4ygv445hwgttmzj255dvw379qc0kk8w8jt",
+      "name": "Please,redelegate_by09Aug2023",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.0175,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1u6hq8svq4td2e80ucj3whmxh9uehf8nygh4hld",
+      "name": "WeStaking",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.0175,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper17343qmv2gpe79t5f87gqg3m6vzfz33z9ssh5x0",
+      "name": "Bi23",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.0175,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1f4z9xvfswjyss32d26z8v3ak5f97t74zj5c6ht",
+      "name": "Blockmachine",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1vkgs96yclhvlk9jemetct6rj8katjnvp7ts7jr",
+      "name": "SadButFalse",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper13rfuft69m3swst4ay7rugdy6pqg2un3tyw7px0",
+      "name": "Zenith Station",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper13g02l4y2es8ppls7ar5zh58ldre8q7tsv6kqer",
+      "name": "Redelegate_Plz_&_Sorry",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1n4akqrmpd29stwvh6dklzecplfha2asdtce9nn",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1jsaud5d8weze74a5e5w9ercxamtglg9wapc43m",
+      "name": "Staky.io",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1je872m97uce2ttztkh8pdx6zezw5kr03dj3lff",
+      "name": "Notional",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper159lye6negcv54ad4chklgkch43xfg9t6gp3jlm",
+      "name": "andfat",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1euwravz79jy4d7hyazzsg38rwhauvrvh22u932",
+      "name": "c.construction",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.00875,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.00875,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1mx3gct8chrssamkdfw8fkrdl93knllryalmxpm",
+      "name": "cyberG",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 0.008662,
+      "total_rewards": 0.0013840674558646968,
+      "delegators": [
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.008662,
+          "rewards": 0.0013840674558646968
+        }
+      ],
+      "new_delegations": 556847
+    },
+    {
+      "address": "bitsongvaloper1mz5q43032m6qwzsq2e3vkjgs7zqx4ksl7swf9v",
+      "name": "Stakeme.io",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.008405,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.008405,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper12a627cpjyez9ne06nttzqrgt067znnhqqlguv0",
+      "name": "CLOSING_REDELEGATE",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.0000049999999999999996,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.000001,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.000003,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 0.000001,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1stxt50ygdlfwu7erkyps3j4wfq6vx935ry53ne",
+      "name": "DECOMMISSIONED",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.000003,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.000003,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1h6a9l0ssh4n9lqgcfanqf7702k3980gl7jyx6c",
+      "name": "Roal",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.000003,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong1tgzday8yewn8n5j0prgsc9t5r3gg2cwnyf9jlv",
+          "amount": 0.000003,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1aa4z7tyml6tcw5arckfx3xqszcedn4gu8su8gz",
+      "name": "Validator.Center",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.000002,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0.000002,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper1xtxvvahw35cepycmsrvjtzty4fy6y4yh3qyrnr",
+      "name": "Geneva",
+      "status": "BOND_STATUS_UNBONDED",
+      "total_amount": 0.000001,
+      "total_rewards": 0,
+      "delegators": [
+        {
+          "address": "bitsong166d42nyufxrh3jps5wx3egdkmvvg7jl6k33yut",
+          "amount": 0.000001,
+          "rewards": 0
+        },
+        {
+          "address": "bitsong1nphhydjshzjevd03afzlce0xnlrnsm27hy9hgd",
+          "amount": 0,
+          "rewards": 0
+        }
+      ],
+      "new_delegations": 0
+    },
+    {
+      "address": "bitsongvaloper13q3m6kndt0z0pla56mefde6uepacas7sdj8pru",
+      "name": "ToTheMars",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 0,
+      "total_rewards": 0,
+      "delegators": [],
+      "new_delegations": 482955
+    },
+    {
+      "address": "bitsongvaloper1knmj6ve4p4e2rl3wpj0rk9dswacr2swn75sc7a",
+      "name": "Citadel.one",
+      "status": "BOND_STATUS_BONDED",
+      "total_amount": 0,
+      "total_rewards": 0,
+      "delegators": [],
+      "new_delegations": 310528
+    }
+  ]
+}
