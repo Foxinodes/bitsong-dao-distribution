@@ -1,8 +1,17 @@
 import { Command } from 'commander';
 import { generateTx } from '@commands/generateTx';
 import { testTx } from '@/commands/testTx';
+import { analyzeJson } from '@/commands/analyzeJson';
 
 const program = new Command();
+
+program
+	.command('analyzeJson')
+	.description('Analyze the allocations.json file')
+	.action(() =>
+	{
+		analyzeJson();
+	});
 
 program
 	.command('generateTx')
