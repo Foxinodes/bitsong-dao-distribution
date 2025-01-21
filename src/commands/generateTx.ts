@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { utils, writeFile as xlsxWriteFile } from 'xlsx';
 import {
 	ValidatorInfo,
 	MsgAnyStaking,
@@ -9,7 +10,17 @@ import {
 	MsgUndelegate,
 } from '@/types/bitsong';
 
-export async function generateTx()
+/**
+ * Generates rebalancing messages (withdraw + staking),
+ * optionally using rewards to fill deficits, and optionally
+ * writes the result in Excel format instead of JSON.
+ * @param outputExcel If true, produce an Excel file; otherwise, produce a JSON file.
+ * @param useRewards If true, use rewards to delegate for deficits; otherwise, ignore them.
+ */
+export async function generateTx(
+	outputExcel: boolean = false,
+	useRewards: boolean = true
+): Promise<void>
 {
 	// 1) Read the allocations file
 	const dataPath = path.resolve(__dirname, '../../data/allocations.json');
@@ -33,21 +44,60 @@ export async function generateTx()
 	// Show the totals in the console for information before generating the messages
 	console.log(`sumCurrent=${sumCurrent}, sumRewards=${sumRewards}, sumTarget=${sumTarget}`);
 	
-	// b) Withdraw block (withdraw rewards if >= 1 BTSG)
-	const withdrawMsgsByDelegator = buildWithdrawRewardsMsgs(validators, 1);
+	// b) Generate the withdraw block (only if useRewards = true)
+	let withdrawMsgsByDelegator: Record<string, MsgWithdraw[]>;
+	if (useRewards)
+	{
+		// Create withdraw messages for any reward >= 1 BTSG
+		withdrawMsgsByDelegator = buildWithdrawRewardsMsgs(validators, 1);
+	}
+	else
+	{
+		// Empty if we are not using rewards
+		withdrawMsgsByDelegator = {};
+	}
 	
-	// c) Staking block (redelegate / undelegate / delegate from rewards)
-	const stakingMsgsByDelegator = createRebalancingMessages(validators, denom, millionFactor, 1);
+	// c) c) Staking block (redelegate / undelegate / delegate from rewards)
+	const stakingMsgsByDelegator = createRebalancingMessages(
+		validators,
+		denom,
+		millionFactor,
+		1,
+		useRewards
+	);
 	
-	// 4) Save as JSON in data/messages.json
-	const outputPath = path.resolve(__dirname, '../../data/messages.json');
-	const finalContent = {
-		withdraw: withdrawMsgsByDelegator,
-		staking: stakingMsgsByDelegator,
-	};
-	
-	fs.writeFileSync(outputPath, JSON.stringify(finalContent, null, 2), 'utf-8');
-	console.log(`Generated messages written to: ${outputPath}`);
+	// 4) Write the output to a file
+	if (outputExcel)
+	{
+		// Write Excel file with two sheets: "withdraw" and "staking"
+		const workbook = utils.book_new();
+		
+		// Convert withdrawMsgsByDelegator to an array of rows
+		const withdrawRows = convertMsgsToRowsWithdraw(withdrawMsgsByDelegator);
+		const withdrawSheet = utils.aoa_to_sheet(withdrawRows);
+		utils.book_append_sheet(workbook, withdrawSheet, 'withdraw');
+		
+		// Convert stakingMsgsByDelegator to an array of rows
+		const stakingRows = convertMsgsToRowsStaking(stakingMsgsByDelegator);
+		const stakingSheet = utils.aoa_to_sheet(stakingRows);
+		utils.book_append_sheet(workbook, stakingSheet, 'staking');
+		
+		const excelOutputPath = path.resolve(__dirname, '../../data/messages.xlsx');
+		xlsxWriteFile(workbook, excelOutputPath);
+		console.log(`Generated Excel file written to: ${excelOutputPath}`);
+	}
+	else
+	{
+		// Write JSON file as before
+		const outputPath = path.resolve(__dirname, '../../data/messages.json');
+		const finalContent = {
+			withdraw: withdrawMsgsByDelegator,
+			staking: stakingMsgsByDelegator,
+		};
+
+		fs.writeFileSync(outputPath, JSON.stringify(finalContent, null, 2), 'utf-8');
+		console.log(`Generated messages written to: ${outputPath}`);
+	}
 }
 
 /**
@@ -100,13 +150,15 @@ function buildWithdrawRewardsMsgs(
  * @param denom string
  * @param millionFactor number
  * @param rewardThresholdBtsg number
+ * @param useRewards boolean
  * @returns Record<string, MsgAnyStaking[]> the key is delegatorAddress
  */
 function createRebalancingMessages(
 	validators: ValidatorInfo[],
 	denom: string = 'ubtsg',
 	millionFactor: number = 1_000_000,
-	rewardThresholdBtsg: number = 1
+	rewardThresholdBtsg: number = 1,
+	useRewards: boolean = true,
 ): Record<string, MsgAnyStaking[]>
 {
 	// 0) Extra: calculate the amount of "available" rewards after withdraw.
@@ -128,11 +180,14 @@ function createRebalancingMessages(
 			const amountUbtsg = Math.floor(d.amount * millionFactor);
 			
 			// If rewards >= threshold, we assume that after withdraw, they will become "liquid"
-			const rewardUbtsg = Math.floor((d.rewards ?? 0) * millionFactor);
-			if (rewardUbtsg >= rewardThresholdBtsg * millionFactor)
+			if (useRewards)
 			{
-				// Add to the "wallet" of this delegator
-				liquidRewardsByDelegator[d.address] = (liquidRewardsByDelegator[d.address] || 0) + rewardUbtsg;
+				const rewardUbtsg = Math.floor((d.rewards ?? 0) * millionFactor);
+				if (rewardUbtsg >= rewardThresholdBtsg * millionFactor)
+				{
+					// Add to the "wallet" of this delegator
+					liquidRewardsByDelegator[d.address] = (liquidRewardsByDelegator[d.address] || 0) + rewardUbtsg;
+				}
 			}
 			
 			return {
@@ -272,18 +327,19 @@ function createRebalancingMessages(
 			}
 		}
 	}
-	
-	// 4) At this stage, we have redistributed everything possible via re-delegation.
-	//    There may still be validators in deficit -> we try to pick
-	//    from liquidRewardsByDelegator via MsgDelegate
-	
-	// Re-sort remaining deficits
-	const stillDeficit = deficitVals.filter((v) => v.delta > 0);
-	stillDeficit.sort((a, b) => b.delta - a.delta);
-	
-	if (stillDeficit.length > 0)
+
+	// -- Delegate phase from rewards if useRewards = true
+	if (useRewards)
 	{
-		// We will go through each validator in deficit
+	
+		// 4) At this stage, we have redistributed everything possible via re-delegation.
+		//    There may still be validators in deficit -> we try to pick
+		//    from liquidRewardsByDelegator via MsgDelegate
+		
+		// Re-sort remaining deficits
+		const stillDeficit = deficitVals.filter((v) => v.delta > 0);
+		stillDeficit.sort((a, b) => b.delta - a.delta);
+
 		for (const defVal of stillDeficit)
 		{
 			let needed = defVal.delta;
@@ -297,8 +353,10 @@ function createRebalancingMessages(
 			
 			for (const [delegAddr, liquidBal] of delegatorList)
 			{
-				if (needed <= 0) break;
-				if (liquidBal <= 0) continue;
+				if (needed <= 0)
+					break;
+				if (liquidBal <= 0)
+					continue;
 				
 				const delegateAmount = Math.min(liquidBal, needed);
 				if (delegateAmount > 0)
@@ -347,4 +405,82 @@ function pushMsg(
 		msgsByDelegator[delegatorAddress] = [];
 	}
 	msgsByDelegator[delegatorAddress].push(msg);
+}
+
+/**
+ * Convert withdraw messages into rows for Excel (if needed).
+ */
+function convertMsgsToRowsWithdraw(
+	msgs: Record<string, MsgWithdraw[]>
+): any[][]
+{
+	const rows: any[][] = [];
+	// header
+	rows.push(['DelegatorAddress', 'ValidatorAddress']);
+	for (const [delegAddr, withdrawArray] of Object.entries(msgs))
+	{
+		for (const w of withdrawArray)
+		{
+			rows.push([delegAddr, w.value.validatorAddress]);
+		}
+	}
+	return rows;
+}
+
+/**
+ * Convert staking messages into rows for Excel (if needed).
+ */
+function convertMsgsToRowsStaking(
+	msgs: Record<string, MsgAnyStaking[]>
+): any[][]
+{
+	const rows: any[][] = [];
+	// header
+	rows.push(['DelegatorAddress', 'TypeUrl', 'ValidatorSrc', 'ValidatorDst', 'Amount']);
+	for (const [delegAddr, msgArray] of Object.entries(msgs))
+	{
+		for (const m of msgArray)
+		{
+			// We check the type of message to fill columns accordingly
+			if (m.typeUrl === '/cosmos.staking.v1beta1.MsgRedelegate')
+			{
+				const r = m as MsgRedelegate;
+				rows.push([
+					delegAddr,
+					'MsgRedelegate',
+					r.value.validatorSrcAddress,
+					r.value.validatorDstAddress,
+					r.value.amount.amount,
+				]);
+			}
+			else if (m.typeUrl === '/cosmos.staking.v1beta1.MsgUndelegate')
+			{
+				const u = m as MsgUndelegate;
+				rows.push([
+					delegAddr,
+					'MsgUndelegate',
+					u.value.validatorAddress,
+					'',
+					u.value.amount.amount,
+				]);
+			}
+			else if (m.typeUrl === '/cosmos.staking.v1beta1.MsgDelegate')
+			{
+				const d = m as MsgDelegate;
+				rows.push([
+					delegAddr,
+					'MsgDelegate',
+					'',
+					d.value.validatorAddress,
+					d.value.amount.amount,
+				]);
+			}
+			else
+			{
+				// Unknown type
+				rows.push([delegAddr, m.typeUrl, '', '', '']);
+			}
+		}
+	}
+	return rows;
 }

@@ -15,10 +15,14 @@ program
 
 program
 	.command('generateTx')
-	.description('Generate a transaction')
-	.action(() =>
+	.description('Generate a transaction with options to output to Excel and ignore pending rewards')
+	.option('--outputExcel', 'Output the result in an Excel file')
+	.option('--ignoreRewards', 'Ignore pending rewards in the transaction')
+	.action((cmd) =>
 	{
-		generateTx();
+		const outputExcel = !!cmd.outputExcel;
+		const ignoreRewards = !!cmd.ignoreRewards;
+		generateTx(outputExcel, !ignoreRewards);
 	});
 
 program

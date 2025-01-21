@@ -88,6 +88,17 @@ This command:
 - Logs the current sum, the rewards sum, and the target sum to the console
 - As well as any warnings about validators remaining in deficit.
 
+The `generateTx` command accepts two options:
+
+- `--outputExcel`: Output the result in an Excel file.
+- `--ignoreRewards`: Ignore pending rewards in the transaction.
+
+Example usage with options:
+
+```bash
+npx tsx src/main.ts generateTx --outputExcel --ignoreRewards
+```
+
 ### Testing the Distribution
 
 To test the result (without actually executing the transaction on the blockchain):
