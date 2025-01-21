@@ -478,7 +478,7 @@ function convertMsgsToRowsStaking(
 			else
 			{
 				// Unknown type
-				rows.push([delegAddr, m.typeUrl, '', '', '']);
+				rows.push([delegAddr, 'unknown', '', '', '']);
 			}
 		}
 	}
