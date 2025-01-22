@@ -29,8 +29,8 @@ export interface MsgDelegate
 		delegatorAddress: string;
 		validatorAddress: string;
 		amount: {
-		denom: string;
-		amount: string;
+			denom: string;
+			amount: string;
 		};
 	};
 }
@@ -43,8 +43,8 @@ export interface MsgRedelegate
 		validatorSrcAddress: string;
 		validatorDstAddress: string;
 		amount: {
-		denom: string;
-		amount: string;
+			denom: string;
+			amount: string;
 		};
 	};
 }
@@ -56,8 +56,8 @@ export interface MsgUndelegate
 		delegatorAddress: string;
 		validatorAddress: string;
 		amount: {
-		denom: string;
-		amount: string;
+			denom: string;
+			amount: string;
 		};
 	};
 }
