@@ -114,6 +114,26 @@ This command:
 - Checks if each validator reaches its target (new_delegations),
 - Displays “OK” or “Mismatch” messages based on the final discrepancy.
 
+### Generating Authz Transactions
+
+To generate separate authorization transactions for withdrawal and staking:
+
+```bash
+npx tsx src/main.ts generateAuthzTx
+```
+
+This command:
+
+- Reads `allocations.json`,
+- Constructs separate authorization transactions for withdrawal and staking,
+- Writes the transactions to `tx-1.json` and `tx-2.json`.
+
+Example usage:
+
+```bash
+npx tsx src/main.ts generateAuthzTx
+```
+
 ## License
 
 This project is licensed under the GPL v3 License - see the LICENSE file for details.
