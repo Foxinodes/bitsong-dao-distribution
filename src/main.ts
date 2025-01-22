@@ -2,6 +2,7 @@ import { Command } from 'commander';
 import { generateTx } from '@commands/generateTx';
 import { testTx } from '@/commands/testTx';
 import { analyzeJson } from '@/commands/analyzeJson';
+import { generateAuthzTx } from '@/commands/generateAuthzTx';
 
 const program = new Command();
 
@@ -31,6 +32,14 @@ program
 	.action(() =>
 	{
 		testTx();
+	});
+
+program
+	.command('generateAuthzTx')
+	.description('Generate separate authz transactions for withdraw and staking')
+	.action(() =>
+	{
+		generateAuthzTx();
 	});
 
 program.parse(process.argv);

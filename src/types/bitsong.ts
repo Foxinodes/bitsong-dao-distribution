@@ -62,5 +62,14 @@ export interface MsgUndelegate
 	};
 }
 
+export interface MsgExec
+{
+	typeUrl: '/cosmos.authz.v1beta1.MsgExec';
+	value: {
+		grantee: string;
+		msgs: MsgAny[];
+	};
+}
+
 export type MsgAnyStaking = MsgDelegate | MsgRedelegate | MsgUndelegate;
-export type MsgAny = MsgWithdraw| MsgRedelegate| MsgUndelegate| MsgDelegate;
+export type MsgAny = MsgWithdraw | MsgRedelegate | MsgUndelegate | MsgDelegate | MsgExec;
