@@ -3,6 +3,7 @@ import { generateTx } from '@commands/generateTx';
 import { testTx } from '@/commands/testTx';
 import { analyzeJson } from '@/commands/analyzeJson';
 import { generateAuthzTx } from '@/commands/generateAuthzTx';
+import { generateDaodaoTx } from '@/commands/generateDaodaoTx';
 
 const program = new Command();
 
@@ -40,6 +41,14 @@ program
 	.action(() =>
 	{
 		generateAuthzTx();
+	});
+
+program
+	.command('generateDaodaoTx')
+	.description('Generate a transaction for Daodao')
+	.action(() =>
+	{
+		generateDaodaoTx();
 	});
 
 program.parse(process.argv);
