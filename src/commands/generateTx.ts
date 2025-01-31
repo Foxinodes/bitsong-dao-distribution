@@ -263,7 +263,7 @@ function createRebalancingMessages(
 					
 					// Create MsgRedelegate
 					const msg: MsgRedelegate = {
-						typeUrl: '/cosmos.staking.v1beta1.MsgRedelegate',
+						typeUrl: '/cosmos.staking.v1beta1.MsgBeginRedelegate',
 						value: {
 							delegatorAddress: delegator.address,
 							validatorSrcAddress: surplusVal.address,
@@ -442,7 +442,7 @@ function convertMsgsToRowsStaking(
 		for (const m of msgArray)
 		{
 			// We check the type of message to fill columns accordingly
-			if (m.typeUrl === '/cosmos.staking.v1beta1.MsgRedelegate')
+			if (m.typeUrl === '/cosmos.staking.v1beta1.MsgBeginRedelegate')
 			{
 				const r = m as MsgRedelegate;
 				rows.push([

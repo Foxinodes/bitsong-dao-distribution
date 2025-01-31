@@ -126,7 +126,7 @@ function simulateMessages(
 					}
 				}
 			}
-			else if (msg.typeUrl === '/cosmos.staking.v1beta1.MsgRedelegate')
+			else if (msg.typeUrl === '/cosmos.staking.v1beta1.MsgBeginRedelegate')
 			{
 				const { delegatorAddress, validatorSrcAddress, validatorDstAddress, amount } = msg.value;
 				const amtNum = Number(amount.amount);

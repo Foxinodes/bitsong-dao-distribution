@@ -37,7 +37,7 @@ export interface MsgDelegate
 
 export interface MsgRedelegate
 {
-	typeUrl: '/cosmos.staking.v1beta1.MsgRedelegate';
+	typeUrl: '/cosmos.staking.v1beta1.MsgBeginRedelegate';
 	value: {
 		delegatorAddress: string;
 		validatorSrcAddress: string;
