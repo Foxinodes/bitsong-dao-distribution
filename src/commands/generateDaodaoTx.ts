@@ -13,7 +13,7 @@ interface MessagesFile {
  * Generate separate Daodao transactions for withdraw and staking.
  * The transactions are written to daodao-tx-1.json and daodao-tx-2.json.
  */
-export async function generateDaodaoTx()
+export async function generateDaodaoTx(chainId: string, decimals: number)
 {
 	// 1) Load messages.json
 	const messagesPath = path.resolve(__dirname, '../../data/messages.json');

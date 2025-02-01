@@ -46,9 +46,13 @@ program
 program
 	.command('generateDaodaoTx')
 	.description('Generate a transaction for Daodao')
-	.action(() =>
+	.option('--decimals <number>', 'Number of decimals', '6')
+	.option('--chainId <string>', 'Chain ID', 'bitsong-2b')
+	.action((cmd) =>
 	{
-		generateDaodaoTx();
+		const decimals = cmd.decimals ? parseInt(cmd.decimals, 10) : 6;
+		const chainId = cmd.chainId || 'bitsong-2b';
+		generateDaodaoTx(chainId, decimals);
 	});
 
 program.parse(process.argv);
