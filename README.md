@@ -5,7 +5,9 @@ Bitsong DAO Distribution
 This project aims to rebalance BTSG token delegations across multiple validators, taking into account the delegation targets (new_delegations) for each. It then generates two sets of messages (withdraw and staking) to perform:
 
 - The withdrawal of accumulated rewards (`MsgWithdrawDelegatorReward`),
-- The re-delegation (`MsgRedelegate`), delegation from rewards (`MsgDelegate`), and undelegation of surplus (`MsgUndelegate`).
+- The re-delegation (`MsgBeginRedelegate`), delegation from rewards (`MsgDelegate`), and undelegation of surplus (`MsgUndelegate`).
+
+For more details, visit the DAO page [here](https://daodao.zone/dao/bitsong1qfwdjcmxgjr9jwa2grhf7pce87afx57j2664tvhh29j7r68a9tgqj9kuf3/home).
 
 ## Prerequisites
 
