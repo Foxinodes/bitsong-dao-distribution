@@ -71,5 +71,11 @@ export interface MsgExec
 	};
 }
 
+export interface DaodaoAction
+{
+	actionKey: string;
+	data: any;
+}
+
 export type MsgAnyStaking = MsgDelegate | MsgBeginRedelegate | MsgUndelegate;
 export type MsgAny = MsgWithdraw | MsgBeginRedelegate | MsgUndelegate | MsgDelegate | MsgExec;
