@@ -57,7 +57,7 @@ The `allocations.json` file lists each validator, with:
 
 ### Objective
 
-- If a validator has more tokens than its target (surplus), the excess is transferred via `MsgRedelegate` or `MsgUndelegate`.
+- If a validator has more tokens than its target (surplus), the excess is transferred via `MsgBeginRedelegate` or `MsgUndelegate`.
 - If a validator is below its target, we try to recover tokens either from validators with a surplus or from unclaimed rewards (`MsgDelegate` after a withdraw).
 
 ### Commands
@@ -110,7 +110,7 @@ npx tsx src/main.ts testTx
 This command:
 
 - Loads `allocations.json` and `messages.json`,
-- Simulates the `MsgWithdrawDelegatorReward`, then the `MsgRedelegate`, `MsgUndelegate`, `MsgDelegate`,
+- Simulates the `MsgWithdrawDelegatorReward`, then the `MsgBeginRedelegate`, `MsgUndelegate`, `MsgDelegate`,
 - Checks if each validator reaches its target (new_delegations),
 - Displays “OK” or “Mismatch” messages based on the final discrepancy.
 

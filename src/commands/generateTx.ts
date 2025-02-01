@@ -6,7 +6,7 @@ import {
 	MsgAnyStaking,
 	MsgWithdraw,
 	MsgDelegate,
-	MsgRedelegate,
+	MsgBeginRedelegate,
 	MsgUndelegate,
 } from '@/types/bitsong';
 
@@ -144,7 +144,7 @@ function buildWithdrawRewardsMsgs(
 }
 
 /**
- * Generates MsgRedelegate, MsgUndelegate, and finally MsgDelegate (from rewards)
+ * Generates MsgBeginRedelegate, MsgUndelegate, and finally MsgDelegate (from rewards)
  * to achieve new_delegations.
  * @param validators ValidatorInfo[]
  * @param denom string
@@ -261,8 +261,8 @@ function createRebalancingMessages(
 					delegatorBalance -= reDelAmount;
 					deficitVal.delta -= reDelAmount;
 					
-					// Create MsgRedelegate
-					const msg: MsgRedelegate = {
+					// Create MsgBeginRedelegate
+					const msg: MsgBeginRedelegate = {
 						typeUrl: '/cosmos.staking.v1beta1.MsgBeginRedelegate',
 						value: {
 							delegatorAddress: delegator.address,
@@ -444,10 +444,10 @@ function convertMsgsToRowsStaking(
 			// We check the type of message to fill columns accordingly
 			if (m.typeUrl === '/cosmos.staking.v1beta1.MsgBeginRedelegate')
 			{
-				const r = m as MsgRedelegate;
+				const r = m as MsgBeginRedelegate;
 				rows.push([
 					delegAddr,
-					'MsgRedelegate',
+					'MsgBeginRedelegate',
 					r.value.validatorSrcAddress,
 					r.value.validatorDstAddress,
 					r.value.amount.amount,

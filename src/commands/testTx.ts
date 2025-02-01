@@ -42,7 +42,7 @@ export async function testTx()
 		liquidBalanceByDelegator
 	);
 	
-	// Execute MsgRedelegate / MsgUndelegate / MsgDelegate
+	// Execute MsgBeginRedelegate / MsgUndelegate / MsgDelegate
 	console.log('\nSimulating staking messages...');
 	let finalValidators = simulateMessages(
 		afterWithdraw,
@@ -66,7 +66,7 @@ export async function testTx()
  * Simulates the application of a set of messages (by delegator).
  * - Handles:
  *   - MsgWithdrawDelegatorReward => modifies liquidBalance
- *   - MsgRedelegate => moves stake from one validator to another
+ *   - MsgBeginRedelegate => moves stake from one validator to another
  *   - MsgUndelegate => removes stake
  *   - MsgDelegate => adds to stake by consuming liquidBalance
  */
@@ -132,7 +132,7 @@ function simulateMessages(
 				const amtNum = Number(amount.amount);
 				if (amount.denom !== denom)
 				{
-					console.warn(`MsgRedelegate: denom=${amount.denom}, expected=${denom}`);
+					console.warn(`MsgBeginRedelegate: denom=${amount.denom}, expected=${denom}`);
 				}
 				const srcVal = valMap.get(validatorSrcAddress);
 				const dstVal = valMap.get(validatorDstAddress);

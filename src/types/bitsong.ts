@@ -35,7 +35,7 @@ export interface MsgDelegate
 	};
 }
 
-export interface MsgRedelegate
+export interface MsgBeginRedelegate
 {
 	typeUrl: '/cosmos.staking.v1beta1.MsgBeginRedelegate';
 	value: {
@@ -71,5 +71,5 @@ export interface MsgExec
 	};
 }
 
-export type MsgAnyStaking = MsgDelegate | MsgRedelegate | MsgUndelegate;
-export type MsgAny = MsgWithdraw | MsgRedelegate | MsgUndelegate | MsgDelegate | MsgExec;
+export type MsgAnyStaking = MsgDelegate | MsgBeginRedelegate | MsgUndelegate;
+export type MsgAny = MsgWithdraw | MsgBeginRedelegate | MsgUndelegate | MsgDelegate | MsgExec;
