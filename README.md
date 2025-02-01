@@ -130,6 +130,30 @@ This command:
 - Constructs separate authorization transactions for withdrawal and staking,
 - Writes the transactions to `tx-1.json` and `tx-2.json`.
 
+### Generating DAODAO Compatible Transactions
+
+To generate transactions compatible with DAODAO:
+
+```bash
+npx tsx src/main.ts generateDaodaoTx
+```
+
+This command:
+
+- Reads `tx-1.json` and `tx-2.json`,
+- Constructs transactions for DAODAO,
+- Writes the transactions to `daodao-tx-1.json` and `daodao-tx-2.json`.
+
+The `generateDaodaoTx` command accepts two optionnal parameters:
+
+- `--decimals <number>`: Number of decimals (default is 6),
+- `--chainId <string>`: Chain ID (default is `bitsong-2b`).
+
+Example usage with options:
+
+```bash
+npx tsx src/main.ts generateDaodaoTx --decimals 6 --chainId bitsong-2b
+```
 
 ## License
 
