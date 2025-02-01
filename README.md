@@ -126,7 +126,7 @@ npx tsx src/main.ts generateAuthzTx
 
 This command:
 
-- Reads `allocations.json`,
+- Reads `messages.json`,
 - Constructs separate authorization transactions for withdrawal and staking,
 - Writes the transactions to `tx-1.json` and `tx-2.json`.
 
