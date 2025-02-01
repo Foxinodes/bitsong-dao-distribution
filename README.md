@@ -130,11 +130,6 @@ This command:
 - Constructs separate authorization transactions for withdrawal and staking,
 - Writes the transactions to `tx-1.json` and `tx-2.json`.
 
-Example usage:
-
-```bash
-npx tsx src/main.ts generateAuthzTx
-```
 
 ## License
 
