@@ -140,10 +140,10 @@ Example usage with the option:
 npx tsx src/main.ts generateAuthzTx --separateFiles
 ```
 
-If the `--separateFiles` option is used, the command will:
+If the `--separateFiles` option is used, the command will generate additional files per delegator in addition to `tx-1.json` and `tx-2.json`:
 
-- Write one file per delegator for withdrawal transactions,
-- Write one file per delegator for staking transactions.
+- `withdraw-<delegatorAddress>.json`: Contains withdrawal transactions for the specified delegator.
+- `staking-<delegatorAddress>.json`: Contains staking transactions for the specified delegator.
 
 ### Generating DAODAO Compatible Transactions
 
@@ -163,12 +163,18 @@ The `generateDaodaoTx` command accepts two optionnal parameters:
 
 - `--decimals <number>`: Number of decimals (default is 6),
 - `--chainId <string>`: Chain ID (default is `bitsong-2b`).
+- `--separateFiles`: If used, the command will generate separate files per delegator.
 
 Example usage with options:
 
 ```bash
 npx tsx src/main.ts generateDaodaoTx --decimals 6 --chainId bitsong-2b
 ```
+
+If the `--separateFiles` option is used, the command will generate additional files per delegator in addition to `daodao-tx-1.json` and `daodao-tx-2.json`:
+
+- `daodao-withdraw-<delegatorAddress>.json`: Contains withdrawal transactions for the specified delegator.
+- `daodao-staking-<delegatorAddress>.json`: Contains staking transactions for the specified delegator.
 
 ## License
 
