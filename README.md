@@ -159,7 +159,7 @@ This command:
 - Constructs transactions for DAODAO,
 - Writes the transactions to `daodao-tx-1.json` and `daodao-tx-2.json`.
 
-The `generateDaodaoTx` command accepts two optionnal parameters:
+The `generateDaodaoTx` command accepts three optional parameters:
 
 - `--decimals <number>`: Number of decimals (default is 6),
 - `--chainId <string>`: Chain ID (default is `bitsong-2b`).
