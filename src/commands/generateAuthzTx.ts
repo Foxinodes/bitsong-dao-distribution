@@ -63,18 +63,6 @@ export async function generateAuthzTx(separateFiles: boolean) : Promise<void>
 			console.log(`Staking Authz Exec TX written to: ${filePath}`);
 		}
 	}
-	else
-	{
-		// File 1: tx-1.json (withdraw part)
-		const tx1Path = path.resolve(__dirname, '../../data/tx-1.json');
-		fs.writeFileSync(tx1Path, JSON.stringify(withdrawExec, null, 2), 'utf-8');
-		console.log(`Withdraw Authz Exec TX written to: ${tx1Path}`);
-		
-		// File 2: tx-2.json (staking part)
-		const tx2Path = path.resolve(__dirname, '../../data/tx-2.json');
-		fs.writeFileSync(tx2Path, JSON.stringify(stakingExec, null, 2), 'utf-8');
-		console.log(`Staking Authz Exec TX written to: ${tx2Path}`);
-	}
 }
 
 /**
