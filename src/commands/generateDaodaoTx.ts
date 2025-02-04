@@ -15,8 +15,12 @@ interface MessagesFile
 /**
  * Generate separate Daodao transactions for withdraw and staking.
  * The transactions are written to daodao-tx-1.json and daodao-tx-2.json.
+ * @param chainId string
+ * @param decimals number
+ * @param separateFiles boolean
+ * @return void
  */
-export async function generateDaodaoTx(chainId: string, decimals: number)
+export async function generateDaodaoTx(chainId: string, decimals: number, separateFiles: boolean): Promise<void>
 {
 	// 1) Load messages.json
 	const messagesPath = path.resolve(__dirname, '../../data/messages.json');
@@ -45,8 +49,37 @@ export async function generateDaodaoTx(chainId: string, decimals: number)
 		JSON.stringify({ actions: stakingActions }, null, 2),
 		'utf-8'
 	);
-	
 	console.log(`Staking Daodao TX written to: ${daodaoTx2Path}`);
+	
+	// 4) Optionally write one file per delegator
+	if (separateFiles)
+	{
+		// Write one file per address for withdraw actions
+		for (const [delegatorAddress, msgs] of Object.entries(messages.withdraw))
+		{
+			const actions = buildDaodaoActions({ [delegatorAddress]: msgs }, chainId, decimals);
+			const filePath = path.resolve(__dirname, `../../data/daodao-withdraw-${delegatorAddress}.json`);
+			fs.writeFileSync(
+				filePath,
+				JSON.stringify({ actions }, null, 2),
+				'utf-8'
+			);
+			console.log(`Withdraw Daodao TX written to: ${filePath}`);
+		}
+		
+		// Write one file per address for staking actions
+		for (const [delegatorAddress, msgs] of Object.entries(messages.staking))
+		{
+			const actions = buildDaodaoActions({ [delegatorAddress]: msgs }, chainId, decimals);
+			const filePath = path.resolve(__dirname, `../../data/daodao-staking-${delegatorAddress}.json`);
+			fs.writeFileSync(
+				filePath,
+				JSON.stringify({ actions }, null, 2),
+				'utf-8'
+			);
+			console.log(`Staking Daodao TX written to: ${filePath}`);
+		}
+	}
 }
 
 /**

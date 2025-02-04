@@ -50,11 +50,13 @@ program
 	.description('Generate a transaction for Daodao')
 	.option('--decimals <number>', 'Number of decimals', '6')
 	.option('--chainId <string>', 'Chain ID', 'bitsong-2b')
+	.option('--separateFiles', 'Separate the transactions into different files')
 	.action((cmd) =>
 	{
 		const decimals = cmd.decimals ? parseInt(cmd.decimals, 10) : 6;
 		const chainId = cmd.chainId || 'bitsong-2b';
-		generateDaodaoTx(chainId, decimals);
+		const separateFiles = !!cmd.separateFiles;
+		generateDaodaoTx(chainId, decimals, separateFiles);
 	});
 
 program.parse(process.argv);
