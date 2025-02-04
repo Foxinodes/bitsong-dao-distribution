@@ -14,6 +14,7 @@ interface MessagesFile
 /**
  * Generate separate authz transactions for withdraw and staking.
  * The transactions are written to tx-1.json and tx-2.json.
+ * @param separateFiles boolean
  * @return void
  */
 export async function generateAuthzTx(separateFiles: boolean) : Promise<void>
