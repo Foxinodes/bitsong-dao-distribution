@@ -16,7 +16,7 @@ interface MessagesFile
  * The transactions are written to tx-1.json and tx-2.json.
  * @return void
  */
-export async function generateAuthzTx()
+export async function generateAuthzTx(separateFiles: boolean) : Promise<void>
 {
 	// 1) Load messages.json
 	const messagesPath = path.resolve(__dirname, '../../data/messages.json');
@@ -40,6 +40,40 @@ export async function generateAuthzTx()
 	const tx2Path = path.resolve(__dirname, '../../data/tx-2.json');
 	fs.writeFileSync(tx2Path, JSON.stringify(stakingExec, null, 2), 'utf-8');
 	console.log(`Staking Authz Exec TX written to: ${tx2Path}`);
+	
+	// 4) Optionally write one file per delegator
+	if (separateFiles)
+	{
+		// Write one file per delegator for withdraw
+		for (const msgExec of withdrawExec)
+		{
+			const delegatorAddress = msgExec.value.grantee;
+			const filePath = path.resolve(__dirname, `../../data/withdraw-${delegatorAddress}.json`);
+			fs.writeFileSync(filePath, JSON.stringify(msgExec, null, 2), 'utf-8');
+			console.log(`Withdraw Authz Exec TX written to: ${filePath}`);
+		}
+		
+		// Write one file per delegator for staking
+		for (const msgExec of stakingExec)
+		{
+			const delegatorAddress = msgExec.value.grantee;
+			const filePath = path.resolve(__dirname, `../../data/staking-${delegatorAddress}.json`);
+			fs.writeFileSync(filePath, JSON.stringify(msgExec, null, 2), 'utf-8');
+			console.log(`Staking Authz Exec TX written to: ${filePath}`);
+		}
+	}
+	else
+	{
+		// File 1: tx-1.json (withdraw part)
+		const tx1Path = path.resolve(__dirname, '../../data/tx-1.json');
+		fs.writeFileSync(tx1Path, JSON.stringify(withdrawExec, null, 2), 'utf-8');
+		console.log(`Withdraw Authz Exec TX written to: ${tx1Path}`);
+		
+		// File 2: tx-2.json (staking part)
+		const tx2Path = path.resolve(__dirname, '../../data/tx-2.json');
+		fs.writeFileSync(tx2Path, JSON.stringify(stakingExec, null, 2), 'utf-8');
+		console.log(`Staking Authz Exec TX written to: ${tx2Path}`);
+	}
 }
 
 /**

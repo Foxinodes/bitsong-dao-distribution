@@ -130,6 +130,21 @@ This command:
 - Constructs separate authorization transactions for withdrawal and staking,
 - Writes the transactions to `tx-1.json` and `tx-2.json`.
 
+The `generateAuthzTx` command accepts one optional parameter:
+
+- `--separateFiles`: Separate the transactions into different files.
+
+Example usage with the option:
+
+```bash
+npx tsx src/main.ts generateAuthzTx --separateFiles
+```
+
+If the `--separateFiles` option is used, the command will:
+
+- Write one file per delegator for withdrawal transactions,
+- Write one file per delegator for staking transactions.
+
 ### Generating DAODAO Compatible Transactions
 
 To generate transactions compatible with DAODAO:

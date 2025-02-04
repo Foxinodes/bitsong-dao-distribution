@@ -38,9 +38,11 @@ program
 program
 	.command('generateAuthzTx')
 	.description('Generate separate authz transactions for withdraw and staking')
-	.action(() =>
+	.option('--separateFiles', 'Separate the transactions into different files')
+	.action((cmd) =>
 	{
-		generateAuthzTx();
+		const separateFiles = !!cmd.separateFiles;
+		generateAuthzTx(separateFiles);
 	});
 
 program
