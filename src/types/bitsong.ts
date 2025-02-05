@@ -1,4 +1,10 @@
 
+export interface MessagesFile
+{
+	withdraw: Record<string, MsgAny[]>;
+	staking: Record<string, MsgAny[]>;
+}
+
 export interface ValidatorInfo
 {
 	address: string; // bitsongvaloper...

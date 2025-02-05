@@ -1,15 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import {
+	MessagesFile,
 	MsgExec,
 	MsgAny,
 } from '@/types/bitsong';
-
-interface MessagesFile
-{
-	withdraw: Record<string, MsgAny[]>;
-	staking: Record<string, MsgAny[]>;
-}
 
 /**
  * Generate separate authz transactions for withdraw and staking.

@@ -1,16 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import
-{
+import {
+	MessagesFile,
 	MsgAny,
 	DaodaoAction,
 } from '@/types/bitsong';
-
-interface MessagesFile
-{
-	withdraw: Record<string, MsgAny[]>;
-	staking: Record<string, MsgAny[]>;
-}
 
 /**
  * Generate separate Daodao transactions for withdraw and staking.
