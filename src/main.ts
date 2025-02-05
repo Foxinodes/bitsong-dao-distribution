@@ -4,6 +4,7 @@ import { testTx } from '@/commands/testTx';
 import { analyzeJson } from '@/commands/analyzeJson';
 import { generateAuthzTx } from '@/commands/generateAuthzTx';
 import { generateDaodaoTx } from '@/commands/generateDaodaoTx';
+import { generateGrantTx } from '@/commands/generateGrantTx';
 
 const program = new Command();
 
@@ -57,6 +58,14 @@ program
 		const chainId = cmd.chainId || 'bitsong-2b';
 		const separateFiles = !!cmd.separateFiles;
 		generateDaodaoTx(chainId, decimals, separateFiles);
+	});
+
+program
+	.command('generateGrantTx <address>')
+	.description('Generate transactions to authorize the specified address to perform transactions with the Authz module')
+	.action((address) =>
+	{
+		generateGrantTx(address);
 	});
 
 program.parse(process.argv);

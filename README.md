@@ -176,6 +176,26 @@ If the `--separateFiles` option is used, the command will generate additional fi
 - `daodao-withdraw-<delegatorAddress>.json`: Contains withdrawal transactions for the specified delegator.
 - `daodao-staking-<delegatorAddress>.json`: Contains staking transactions for the specified delegator.
 
+### Generating Grant Transactions
+
+To generate transactions that authorize a specified address to perform transactions with the Authz module:
+
+```bash
+npx tsx src/main.ts generateGrantTx <address>
+```
+
+This command:
+
+- Reads `messages.json`,
+- Constructs authorization transactions for the specified address,
+- Writes the transactions to `grant-<address>.json`.
+
+Example usage:
+
+```bash
+npx tsx src/main.ts generateGrantTx bitsong1qfwdjcmxgjr9jwa2grhf7pce87afx57j2664tvhh29j7r68a9tgqj9kuf3
+```
+
 ## License
 
 This project is licensed under the GPL v3 License - see the LICENSE file for details.
