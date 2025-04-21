@@ -154,6 +154,7 @@ function simulateMessages(
 				dstVal.totalAmountUbtsg += amtNum;
 				const dstBal = getDelegatorBalance(dstVal, delegatorAddress);
 				updateDelegatorBalance(dstVal, delegatorAddress, dstBal + amtNum, millionFactor);
+				console.log(`(Sim) Redelegate: ${amtNum} ubtsg from ${validatorSrcAddress} to ${validatorDstAddress} for delegator=${delegAddr}`);
 			}
 			else if (msg.typeUrl === '/cosmos.staking.v1beta1.MsgUndelegate')
 			{
@@ -177,6 +178,7 @@ function simulateMessages(
 				}
 				val.totalAmountUbtsg -= amtNum;
 				updateDelegatorBalance(val, delegatorAddress, srcBal - amtNum, millionFactor);
+				console.log(`(Sim) Undelegate: ${amtNum} ubtsg from ${validatorAddress} for delegator=${delegAddr}`);
 			}
 			else if (msg.typeUrl === '/cosmos.staking.v1beta1.MsgDelegate')
 			{
@@ -208,6 +210,7 @@ function simulateMessages(
 					val.totalAmountUbtsg += amtNum;
 					const cur = getDelegatorBalance(val, delegatorAddress);
 					updateDelegatorBalance(val, delegatorAddress, cur + amtNum, millionFactor);
+					console.log(`(Sim) Delegate: ${amtNum} ubtsg to ${validatorAddress} for delegator=${delegatorAddress}`);
 				}
 			}
 			else
