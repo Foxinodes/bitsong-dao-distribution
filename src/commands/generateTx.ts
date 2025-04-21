@@ -29,6 +29,10 @@ export async function generateTx(
 	
 	// 2) Retrieve the list of validators
 	const validators = allocations.delegations as ValidatorInfo[];
+	// Filter out validators with no change in delegation
+	const validatorsWithChange = validators.filter(
+		(v) => Math.abs(v.new_delegations - v.total_amount) > 0
+	);
 	
 	// 3) Generate two blocks of messages
 	const denom = 'ubtsg';
@@ -59,7 +63,7 @@ export async function generateTx(
 	
 	// c) c) Staking block (redelegate / undelegate / delegate from rewards)
 	const stakingMsgsByDelegator = createRebalancingMessages(
-		validators,
+		validatorsWithChange,
 		denom,
 		millionFactor,
 		1,
